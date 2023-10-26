@@ -75,7 +75,7 @@ const newUsers = users.map(function(user, i) {
 
 // WHILE loopar
 
-let i = 11;
+let i = 1;
 
 while( i < 5 ) {
   console.log('while: ' + i)
