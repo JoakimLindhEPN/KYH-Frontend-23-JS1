@@ -70,3 +70,24 @@ btn.addEventListener('click', () => {
 
 
 // UPPGIFT gör så att när man klickar på "ändra" så ändras texten i div#one till någonting annat
+const btn2 = document.querySelector('#btn2')
+const output = document.querySelector('#output')
+
+btn2.addEventListener('click', () => {
+  // document.querySelector('#output').innerHTML = `
+  //   <div id="one">ny text</div>
+  //   <div id="two">two</div>
+  //   <div id="three">three</div>
+  //   <div id="four">four</div>
+  // `
+
+  // const one = document.querySelector('#one')
+  // console.log(one)
+  // if(!one) return
+
+  // one.innerHTML = 'hej'
+
+  if(output.children.length === 0) return
+  output.children[0].textContent = 'Hej'
+
+})
