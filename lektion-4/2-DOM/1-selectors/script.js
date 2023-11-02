@@ -67,3 +67,6 @@ btn.addEventListener('click', () => {
   `
   btn.disabled = true
 })
+
+
+// UPPGIFT gör så att när man klickar på "ändra" så ändras texten i div#one till någonting annat
