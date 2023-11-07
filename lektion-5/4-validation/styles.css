@@ -44,8 +44,11 @@ body {
 .error {
   font-size: .9rem;
   color: firebrick;
+  /* display: none; */
 }
-
+.form-control.is-invalid ~ .error {
+  display: block;
+}
 .btn {
   padding: .5em 2.4em;
   border: 0;
