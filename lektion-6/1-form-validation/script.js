@@ -45,12 +45,14 @@ function validateText(input) {
 
 function validateEmail(email) {
   const regEx = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
   if(email.value.trim().length <= 0) {
     setError(email, 'You need to enter an email address')
     return
   }
   else if(!regEx.test(email.value)) {
     setError(email, 'You need to enter a VALID email address')
+    return
   }
 
 
