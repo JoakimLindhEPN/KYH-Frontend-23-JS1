@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+
+    <form id="regForm">
+      <div class="headline">
+        <h1>Register User</h1>
+      </div>
+      <div class="form-content">
+
+        <div class="input-group is-invalid">
+          <i class="fa-solid fa-circle-xmark icon"></i>
+          <i class="fa-solid fa-circle-check icon"></i>
+
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" id="firstName" class="form-control">
+          <div class="invalid-input">Error msg</div>
+        </div>
+        <div class="input-group is-valid">
+          <i class="fa-solid fa-circle-xmark icon"></i>
+          <i class="fa-solid fa-circle-check icon"></i>
+
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" id="lastName" class="form-control">
+          <div class="invalid-input">Error msg</div>
+        </div>
+
+        <div class="input-group">
+          <i class="fa-solid fa-circle-xmark icon"></i>
+          <i class="fa-solid fa-circle-check icon"></i>
+
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control">
+          <div class="invalid-input">Error msg</div>
+        </div>
+
+        <div class="input-group">
+          <i class="fa-solid fa-circle-xmark icon"></i>
+          <i class="fa-solid fa-circle-check icon"></i>
+
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-control">
+          <small class="tip">Must be atleast 5 characters long and contain 1 number</small>
+          <div class="invalid-input">Error msg</div>
+        </div>
+
+        <div class="input-group">
+          <i class="fa-solid fa-circle-xmark icon"></i>
+          <i class="fa-solid fa-circle-check icon"></i>
+
+          <label for="repeat-password" class="form-label">Repeat Password</label>
+          <input type="password" id="repeat-password" class="form-control">
+          <div class="invalid-input">Error msg</div>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" id="terms" class="form-check">
+          <label for="terms" >I accept the terms and conditions</label>
+          <div class="invalid-input">Error msg</div>
+        </div>
+
+
+
+        <button class="btn btn-primary btn-block">Register</button>
+
+      </div>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

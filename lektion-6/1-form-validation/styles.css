@@ -1,0 +1,127 @@
+:root {
+  --clr-bg: #c7c7c7;
+  --clr-form-bg: #fafafa;
+  --clr-error: #ae3a3a;
+  --clr-success: #339e43;
+  --clr-primary: rgb(49, 49, 109);
+  
+  --border-radius: .5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--clr-bg);
+}
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#regForm {
+  background-color: var(--clr-form-bg);
+  border-radius: var(--border-radius);
+  min-width: 400px;
+  box-shadow: 2px 2px 6px #0000003c;
+}
+
+.headline {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--clr-bg);
+}
+
+.form-content {
+  padding: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: .3rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: .5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--clr-bg);
+}
+
+.invalid-input {
+  color: var(--clr-error);
+  font-size: .9rem;
+  display: none;
+  /* visibility: hidden; */
+}
+
+.is-invalid .invalid-input {
+  display: block;
+  /* visibility: visible; */
+}
+.is-invalid .form-control {
+  border-color: var(--clr-error);
+  outline-color: var(--clr-error);
+}
+
+.icon {
+  position: absolute;
+  right: .5rem;
+  top: 2.1rem;
+  display: none;
+}
+
+.fa-circle-xmark {
+  color: var(--clr-error);
+}
+
+.is-invalid .fa-circle-xmark {
+  display: block;
+}
+
+.is-valid .form-control {
+  border-color: var(--clr-success);
+  outline-color: var(--clr-success);
+}
+
+.fa-circle-check {
+  color: var(--clr-success);
+}
+
+.is-valid .fa-circle-check {
+  display: block;
+}
+
+.btn {
+  padding: .6em 1.8em;
+  border: 0;
+  border-radius: var(--border-radius);
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-outline {
+  border: 1px solid #333;
+}
+.btn-primary {
+  background-color: var(--clr-primary);
+  color: #fff;
+}
+.btn-block {
+  width: 100%;
+}
+
+.tip {
+  color: #555555;
+  font-size: .8rem;
+}
