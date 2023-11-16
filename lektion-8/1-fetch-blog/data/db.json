@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "12kmjn-dkij23nb1",
+      "title": "Blog post 1",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam lobortis magna vitae tempus. Ut in purus eget nibh sagittis maximus id quis ligula. Duis blandit augue quis erat ultricies, a interdum nunc ultricies. Pellentesque quis eros eros. Curabitur et convallis dolor. In sagittis, metus et pellentesque sollicitudin, metus urna laoreet enim, sit amet bibendum nunc neque eget velit. Proin consectetur eleifend odio id accumsan. Nullam nec imperdiet lectus. Ut consectetur, ante eu tempor sodales, nibh sapien vulputate augue, a pulvinar mauris nibh sit amet sem. Proin sollicitudin finibus nisi quis tristique. Pellentesque venenatis diam id posuere malesuada.",
+      "author": "Joakim",
+      "categories": ["Travel", "Food"],
+      "imgUrl": "https://images.unsplash.com/photo-1682687220795-796d3f6f7000?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "12kmjn-dkij12sf4",
+      "title": "Blog post 2",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam lobortis magna vitae tempus. Ut in purus eget nibh sagittis maximus id quis ligula. Duis blandit augue quis erat ultricies, a interdum nunc ultricies. Pellentesque quis eros eros. Curabitur et convallis dolor. In sagittis, metus et pellentesque sollicitudin, metus urna laoreet enim, sit amet bibendum nunc neque eget velit. Proin consectetur eleifend odio id accumsan. Nullam nec imperdiet lectus. Ut consectetur, ante eu tempor sodales, nibh sapien vulputate augue, a pulvinar mauris nibh sit amet sem. Proin sollicitudin finibus nisi quis tristique. Pellentesque venenatis diam id posuere malesuada.",
+      "author": "Hans",
+      "categories": ["Backend", "Computers"],
+      "imgUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}
