@@ -53,3 +53,23 @@
   bottom: 1rem;
   right: 2rem;
 }
+
+.hot {
+  background-color: red;
+  color: #fff;
+  padding: .2em 1em;
+  border-radius: 100vh;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+.hot-btn {
+  color: #a1a1a1;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.hot-btn:hover {
+  color: firebrick;
+}

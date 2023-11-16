@@ -2,6 +2,7 @@
   "posts": [
     {
       "id": "12kmjn-dkij23nb1",
+      "hot": false,
       "title": "Blog post 1",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam lobortis magna vitae tempus. Ut in purus eget nibh sagittis maximus id quis ligula. Duis blandit augue quis erat ultricies, a interdum nunc ultricies. Pellentesque quis eros eros. Curabitur et convallis dolor. In sagittis, metus et pellentesque sollicitudin, metus urna laoreet enim, sit amet bibendum nunc neque eget velit. Proin consectetur eleifend odio id accumsan. Nullam nec imperdiet lectus. Ut consectetur, ante eu tempor sodales, nibh sapien vulputate augue, a pulvinar mauris nibh sit amet sem. Proin sollicitudin finibus nisi quis tristique. Pellentesque venenatis diam id posuere malesuada.",
       "author": "Joakim",
@@ -13,6 +14,7 @@
     },
     {
       "id": "12kmjn-dkij12sf4",
+      "hot": true,
       "title": "Blog post 2",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam lobortis magna vitae tempus. Ut in purus eget nibh sagittis maximus id quis ligula. Duis blandit augue quis erat ultricies, a interdum nunc ultricies. Pellentesque quis eros eros. Curabitur et convallis dolor. In sagittis, metus et pellentesque sollicitudin, metus urna laoreet enim, sit amet bibendum nunc neque eget velit. Proin consectetur eleifend odio id accumsan. Nullam nec imperdiet lectus. Ut consectetur, ante eu tempor sodales, nibh sapien vulputate augue, a pulvinar mauris nibh sit amet sem. Proin sollicitudin finibus nisi quis tristique. Pellentesque venenatis diam id posuere malesuada.",
       "author": "Hans",
@@ -21,40 +23,6 @@
         "Computers"
       ],
       "imgUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "title": "My First Post",
-      "imgUrl": "https://plus.unsplash.com/premium_photo-1661371281171-4ad217196809?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "categories": [
-        "Computers",
-        "JavaScript"
-      ],
-      "author": "Joakim",
-      "body": "This is a post about computers and JavaScript",
-      "id": "zxTdcDw"
-    },
-    {
-      "title": "Fetch och Javascript",
-      "imgUrl": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "categories": [
-        "javascript",
-        "html",
-        "fetch"
-      ],
-      "author": "Joakim",
-      "body": "test asd sd fd gfdfgdf dfg\n",
-      "id": "H3vZcVt"
-    },
-    {
-      "title": "Rast är fantastiskt",
-      "imgUrl": "https://images.unsplash.com/photo-1599825919241-ace91951e68c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "categories": [
-        "Break",
-        "freetime"
-      ],
-      "author": "Tommy",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum quidem at quos magnam praesentium, ex iure, consequuntur ducimus vel exercitationem, fuga delectus tenetur? Asperiores pariatur vel accusantium explicabo soluta doloremque repellendus saepe repellat at porro corrupti veritatis ut, eum itaque laboriosam vitae, est deleniti, eaque consequuntur voluptatem voluptates? Corporis totam accusamus ex quaerat veniam a id illo quia. Quia reprehenderit a harum veritatis ab provident, molestias amet molestiae rem explicabo eos laboriosam doloribus culpa debitis aliquam iure, alias, nisi nam! Odio facilis nesciunt repellendus facere libero animi doloremque ullam accusantium quos voluptatibus necessitatibus, expedita, obcaecati officia asperiores cum omnis, provident voluptate. Ab fugit, aliquam distinctio architecto alias culpa earum accusantium id odio. Vel velit quaerat odio quisquam expedita perferendis! Libero fuga sint eum vel aliquam necessitatibus ex, quos fugit. Doloribus temporibus, pariatur iusto exercitationem dolores mollitia officia quos ullam! Sequi sint quibusdam excepturi saepe libero fugit porro, ullam reiciendis eaque? Natus ipsa explicabo nobis voluptatum vel fugiat porro et dolorum, provident unde quas consectetur aspernatur officia odit quis quisquam. Ducimus deserunt nobis obcaecati sunt blanditiis commodi libero, placeat sint illo maiores ab harum fugiat? Incidunt consequatur blanditiis veniam iusto non, explicabo ab? Molestias atque exercitationem optio repellendus magni corporis nostrum molestiae aliquam quos? Dolore cum temporibus commodi incidunt sapiente earum excepturi nam ullam quia, enim rerum. Amet ipsum culpa animi maxime nisi minima eveniet, nesciunt rem, tempora rerum id hic sequi esse dolorem, maiores deserunt perferendis ducimus voluptas necessitatibus consequuntur atque reprehenderit reiciendis omnis. Architecto tenetur voluptas commodi sequi, magni cum similique voluptate maiores natus nemo non doloremque amet repellat blanditiis nihil obcaecati nisi consequatur repellendus ullam odio sit iure veritatis qui delectus. Laborum expedita, similique ex facilis aliquid labore, culpa, temporibus eum numquam ea illum quibusdam ipsum error non nisi accusamus enim quod recusandae. Eius, porro tempore. Dolores quia ducimus totam veritatis adipisci nam ad sunt labore explicabo aspernatur, repellat fugiat tenetur, nemo aut consequuntur iure laudantium, quidem quod nesciunt! Quidem adipisci laudantium fugit ipsam! Saepe adipisci, nisi possimus quidem nulla eligendi veniam eos nihil! Eligendi quos ut qui molestiae! Animi fugit cupiditate labore velit laboriosam. Aspernatur similique, in quia, nisi velit modi optio laudantium, unde officiis accusantium quibusdam excepturi! Velit laborum aut asperiores! Dicta, harum dignissimos. Quam, assumenda ratione. At inventore odio necessitatibus quia amet, ipsa nostrum rem nam voluptates deleniti! Eius, facere! Tenetur facere, itaque in, voluptatum eius, perferendis quis voluptates rerum labore iste magni aliquid sit. Hic enim eius repudiandae omnis, obcaecati nesciunt accusantium. Beatae quasi et cupiditate quisquam dolorem. Nisi soluta debitis alias culpa nam, modi non similique praesentium laboriosam officiis quo corporis in eius consectetur eligendi autem adipisci totam voluptate, officia optio. Possimus, debitis reiciendis, optio illo tenetur soluta numquam quaerat cupiditate ad perspiciatis corporis vero quasi et ipsa. Suscipit temporibus aperiam quae enim laudantium. Omnis ipsam, eaque libero dolorum placeat delectus officia saepe commodi tempora eius quisquam ut, quae, enim magni quam error quas dicta sit fugiat animi blanditiis ea dolor architecto? Quidem culpa, voluptatum perferendis sunt inventore rerum sed distinctio repellendus!",
-      "id": "3hE-9qy"
     }
   ]
 }

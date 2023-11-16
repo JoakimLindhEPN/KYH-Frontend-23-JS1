@@ -45,7 +45,8 @@ async function createPost() {
     imgUrl,
     categories: categoryArray,
     author,
-    body
+    body,
+    hot: false
   }
 
   try {
