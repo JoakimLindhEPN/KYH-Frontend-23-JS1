@@ -45,7 +45,6 @@ function createPostElement(post) {
   postDiv.appendChild(imgContainer)
 
   const contentDiv = createCustomElement('div', 'content')
-  const hotBtn = createCustomElement('i', 'fa-solid fa-fire hot-btn')
   const contentTitle = createCustomElement('h2', 'content_title', post.title)
 
   const info = createCustomElement('div', 'info')
@@ -60,12 +59,8 @@ function createPostElement(post) {
   const bodyDiv = createCustomElement('p', 'post_body', post.body.slice(0, 100) + '...')
   const link = createCustomElement('a', 'btn btn-primary bottom-right', 'Read more')
 
-  if(post.hot) {
-    const hot = createCustomElement('p', 'hot', 'HOT')
-    contentDiv.appendChild(hot)
-  }
 
-  contentDiv.append(hotBtn, contentTitle, info, bodyDiv, link)
+  contentDiv.append(contentTitle, info, bodyDiv, link)
   postDiv.appendChild(contentDiv)
   return postDiv
 }
