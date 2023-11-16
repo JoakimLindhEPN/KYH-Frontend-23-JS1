@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jockes Blog | Create new post</title>
+  <link rel="stylesheet" href="../globals.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="heading">Create a new post</h1>
+  </header>
+  <div class="container">
+
+    <form id="createForm">
+      <div class="input-group">
+        <label for="title" class="form-label">Title:</label>
+        <input type="text" id="title" class="form-control">
+        <p class="error">Error message</p>
+      </div>
+      <div class="input-group">
+        <label for="imgUrl" class="form-label">Image URL:</label>
+        <input type="text" id="imgUrl" class="form-control">
+        <p class="error">Error message</p>
+      </div>
+      
+
+      <div class="row">
+        <div class="input-group categories">
+          <label for="categories" class="form-label">Categories:</label>
+          <input type="text" id="categories" class="form-control">
+          <p class="tooltip">Enter one or more categories separated by ,</p>
+          <p class="error">Error message</p>
+        </div>
+        <div class="input-group author">
+          <label for="author" class="form-label">Author:</label>
+          <select id="author" class="form-control">
+            <option value="" disabled selected></option>
+            <option value="Joakim">Joakim</option>
+            <option value="Hans">Hans</option>
+            <option value="Tommy">Tommy</option>
+          </select>
+          <p class="error">Error message</p>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="body" class="form-label">Post Content: </label>
+        <textarea id="body" cols="30" rows="20" class="form-control form-textarea"></textarea>
+        <p class="error">Error message</p>
+      </div>
+
+      <button class="btn btn-primary">Create</button>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

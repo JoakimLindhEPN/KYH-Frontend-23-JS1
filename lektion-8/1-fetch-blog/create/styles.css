@@ -1,0 +1,41 @@
+.input-group {
+  margin-bottom: 1rem;
+}
+.form-label {
+  display: block;
+  margin-bottom: .5rem;
+}
+.form-control {
+  width: 100%;
+  font-size: 1rem;
+  padding: .5em;
+  border-radius: .7em;
+  border: 1px solid #333;
+}
+.invalid .form-control {
+  border-color: firebrick;
+}
+.error {
+  color: firebrick;
+  font-size: .9rem;
+  display: none;
+}
+.invalid .error {
+  display: block;
+}
+.tooltip {
+  color: #6d6d6d;
+  font-size: .87rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+.categories { flex: 4; }
+.author { flex: 1; }
+
+.form-textarea {
+  resize: none;
+  overflow: auto;
+}
