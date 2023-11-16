@@ -11,7 +11,6 @@ form.addEventListener('submit', e => {
 
   if(errors.includes(false)) return
 
-
   createPost()
 
 })
@@ -31,7 +30,7 @@ function validate(input) {
   }
 }
 
-function createPost() {
+async function createPost() {
   const title = document.querySelector('#title').value
   const imgUrl = document.querySelector('#imgUrl').value
   const categories = document.querySelector('#categories').value
@@ -39,7 +38,7 @@ function createPost() {
   const body = document.querySelector('#body').value
 
   const categoryArray = categories.replace(/\s*,\s*/g, ',').split(',')
-  console.log(categoryArray)
+  // console.log(categoryArray)
 
   const post = {
     title,
@@ -49,5 +48,25 @@ function createPost() {
     body
   }
 
-  console.log(post)
+  try {
+    const res = await fetch('http://localhost:3000/posts', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json'
+      },
+      body: JSON.stringify(post)
+    })
+    console.log(res)
+    if(res.status !== 201) {
+      throw new Error(res.status)
+    }
+    
+    window.location.assign('/')
+    
+  } catch (error) {
+    console.log(error.message)
+    document.querySelector('#form-error').classList.add('invalid')
+  }
+  
+  
 }
