@@ -12,7 +12,7 @@ form.addEventListener('submit', e => {
   if(errors.includes(false)) return
 
 
-  console.log('create post')
+  createPost()
 
 })
 
@@ -29,4 +29,25 @@ function validate(input) {
     parent.classList.remove('invalid')
     return true
   }
+}
+
+function createPost() {
+  const title = document.querySelector('#title').value
+  const imgUrl = document.querySelector('#imgUrl').value
+  const categories = document.querySelector('#categories').value
+  const author = document.querySelector('#author').value
+  const body = document.querySelector('#body').value
+
+  const categoryArray = categories.replace(/\s*,\s*/g, ',').split(',')
+  console.log(categoryArray)
+
+  const post = {
+    title,
+    imgUrl,
+    categories: categoryArray,
+    author,
+    body
+  }
+
+  console.log(post)
 }
