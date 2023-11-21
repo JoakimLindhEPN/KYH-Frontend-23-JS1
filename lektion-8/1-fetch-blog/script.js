@@ -1,5 +1,7 @@
 console.log(window.location)
 
+import { createCustomElement } from "./lib/helpers.js"
+
 let posts = []
 
 const fetchPosts = async () => {
@@ -74,7 +76,7 @@ function createPostElement(post) {
 
   const bodyDiv = createCustomElement('p', 'post_body', post.body.slice(0, 100) + '...')
   const link = createCustomElement('a', 'btn btn-primary bottom-right', 'Read more')
-  link.href = 'details'
+  link.href = 'details/?id=' + post.id
 
 
   contentDiv.append(contentTitle, info, bodyDiv, link)
@@ -84,15 +86,6 @@ function createPostElement(post) {
 
 
 
-function createCustomElement(type, classList, text) {
-  const el = document.createElement(type)
-  if(classList && classList.length > 0) {
-    el.className = classList
-  }
-  if(text) {
-    el.textContent = text
-  }
-  return el
-}
+
 
 

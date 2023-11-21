@@ -28,26 +28,7 @@
   margin-bottom: 1rem;
 }
 
-.info, .categories {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: .8rem;
-}
-.info {
-  margin-bottom: 2rem;
-}
-.categories {
-  gap: 1rem;
-}
-.categories li {
-  list-style: none;
-  background-color: #333;
-  color: #fff;
-  padding: .2em 1em;
-  border-radius: 100vh;
-  cursor: pointer;
-}
+
 
 .bottom-right {
   position: absolute;
