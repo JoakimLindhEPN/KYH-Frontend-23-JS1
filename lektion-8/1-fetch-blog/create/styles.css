@@ -5,13 +5,7 @@
   display: block;
   margin-bottom: .5rem;
 }
-.form-control {
-  width: 100%;
-  font-size: 1rem;
-  padding: .5em;
-  border-radius: .7em;
-  border: 1px solid #333;
-}
+
 .invalid .form-control {
   border-color: firebrick;
 }

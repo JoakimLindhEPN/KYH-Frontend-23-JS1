@@ -40,6 +40,10 @@ img {
 .flex-end {
   justify-content: end;
 }
+.justify-between {
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 .header {
@@ -52,4 +56,12 @@ img {
 }
 .heading {
   font-size: 3rem;
+}
+
+.form-control {
+  width: 100%;
+  font-size: 1rem;
+  padding: .5em;
+  border-radius: .7em;
+  border: 1px solid #333;
 }

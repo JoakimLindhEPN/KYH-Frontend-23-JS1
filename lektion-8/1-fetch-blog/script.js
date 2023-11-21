@@ -1,10 +1,20 @@
-
+console.log(window.location)
 
 let posts = []
 
 const fetchPosts = async () => {
+
+  const query = new URLSearchParams(window.location.search)
+  const search = query.get('search')
+  
+  let url = 'http://localhost:3000/posts'
+
+  if(search !== null) {
+    url = `http://localhost:3000/posts?q=${search}`
+  }
+
   try {
-    const res = await fetch('http://localhost:3000/posts')
+    const res = await fetch(url)
     
     if(res.status !== 200) {
       throw new Error('Something went wrong')
@@ -49,15 +59,22 @@ function createPostElement(post) {
 
   const info = createCustomElement('div', 'info')
   const categories = createCustomElement('ul', 'categories')
+
   post.categories.forEach(cat => {
     const categoryLi = createCustomElement('li', '', cat)
+    // categoryLi.href = `/?search=${cat}`
     categories.appendChild(categoryLi)
+    categoryLi.addEventListener('click', () => {
+      window.location.assign(`/?search=${cat}`)
+    })
   })
+
   const author = createCustomElement('p', '', 'Author: ' + post.author)
   info.append(categories, author)
 
   const bodyDiv = createCustomElement('p', 'post_body', post.body.slice(0, 100) + '...')
   const link = createCustomElement('a', 'btn btn-primary bottom-right', 'Read more')
+  link.href = 'details'
 
 
   contentDiv.append(contentTitle, info, bodyDiv, link)
