@@ -23,6 +23,31 @@
         "Computers"
       ],
       "imgUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "My Trip to LA",
+      "imgUrl": "https://images.unsplash.com/photo-1580655653885-65763b2597d0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "categories": [
+        "Travel",
+        "LA"
+      ],
+      "author": "Joakim",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod sed illum rerum atque consectetur officiis nostrum aut odio mollitia aspernatur. Ratione, commodi molestias! Sint, voluptates est vitae cupiditate tenetur necessitatibus.",
+      "hot": false,
+      "id": "FsByZDV"
+    },
+    {
+      "title": "Hur JavaScript fungerar",
+      "imgUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "categories": [
+        "Comuters",
+        "Code",
+        "JavaScript"
+      ],
+      "author": "Joakim",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus architecto provident sed doloribus rerum illum quas voluptatem error deserunt molestiae in sit quos pariatur unde, enim possimus distinctio commodi totam!",
+      "hot": false,
+      "id": "CiQvS3j"
     }
   ]
 }
