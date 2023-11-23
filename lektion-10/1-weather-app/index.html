@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+        <p class="city-name">Västerås</p>
+        <div class="current">
+          <div class="deg">
+            <p class="temp">3<span>&deg;</span></p>
+            <div class="icon"></div>
+          </div>
+          <p class="description">Mestadels Regn</p>
+          <div class="hi-low">
+            <p>H: <span>3&deg;</span></p>
+            <p>L: <span>1&deg;</span></p>  
+          </div>
+        </div>
+        <div class="date">Torsdag 23 November 2023</div>
+
+    </div>
+    <form>
+      <input id="city" type="text" placeholder="Sök efter en stad">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

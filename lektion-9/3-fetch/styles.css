@@ -33,3 +33,17 @@
     opacity: 0;
   }
 }
+
+
+
+.user {
+  position: relative;
+}
+.remove-btn {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+i {
+  pointer-events: none;
+}
