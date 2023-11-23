@@ -103,7 +103,7 @@ window.addEventListener('load',() => {
 
 const form = document.querySelector('#city-form')
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault()
 
   console.log(1)
@@ -112,10 +112,18 @@ form.addEventListener('submit', (e) => {
     .then(data => {
       displayHourlyResults(data)
     })
+
   getCurrentWeatherData(form['city'].value)
     .then(data => {
       displayCurrentResult(data)
     })
+
+  // const hourlyData = await getHourlyWeatherData(form['city'].value)
+  // displayHourlyResults(hourlyData)
+
+  // const currentData = await getCurrentWeatherData(form['city'].value)
+  // displayCurrentResult(currentData)
+
   
   form['city'].value = ''
 })
